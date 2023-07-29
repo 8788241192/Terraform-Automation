@@ -4,5 +4,7 @@ terraform {
     key = "LockID"
     region = "us-east-1"
     dynamodb_table = "my-dynamodb-table-1"
+    terraform plan -lock=false 
+
   }
 }
